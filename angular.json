@@ -1,0 +1,183 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+<<<<<<< HEAD
+  "cli": {
+    "analytics": false
+  },
+  "version": 1,
+  "projects": {
+    "widget-element": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss",
+          "skipTests": true
+        },
+        "@schematics/angular:class": {
+          "skipTests": true
+        },
+        "@schematics/angular:directive": {
+          "skipTests": true
+        },
+        "@schematics/angular:guard": {
+          "skipTests": true
+        },
+        "@schematics/angular:interceptor": {
+          "skipTests": true
+        },
+        "@schematics/angular:pipe": {
+          "skipTests": true
+        },
+        "@schematics/angular:resolver": {
+          "skipTests": true
+        },
+        "@schematics/angular:service": {
+          "skipTests": true
+        }
+      },
+      "root": "projects/widget-element",
+      "sourceRoot": "projects/widget-element/src",
+=======
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "financial-tax-erp": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
+      "root": "",
+      "sourceRoot": "src",
+>>>>>>> 59cfeb1c382a9d21439909311af8c5f520e7814a
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+<<<<<<< HEAD
+            "outputPath": "dist/widget-element",
+            "index": "projects/widget-element/src/index.html",
+            "main": "projects/widget-element/src/main.ts",
+            "polyfills": "projects/widget-element/src/polyfills.ts",
+            "tsConfig": "projects/widget-element/tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "projects/widget-element/src/favicon.ico",
+              "projects/widget-element/src/assets"
+            ],
+            "styles": [
+              "projects/widget-element/src/styles.scss"
+=======
+            "outputPath": "dist/financial-tax-erp",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.scss"
+>>>>>>> 59cfeb1c382a9d21439909311af8c5f520e7814a
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+<<<<<<< HEAD
+                  "maximumWarning": "6kb",
+                  "maximumError": "8kb"
+=======
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+>>>>>>> 59cfeb1c382a9d21439909311af8c5f520e7814a
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+<<<<<<< HEAD
+              "browserTarget": "widget-element:build:production"
+            },
+            "development": {
+              "browserTarget": "widget-element:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+=======
+              "browserTarget": "financial-tax-erp:build:production"
+            },
+            "development": {
+              "browserTarget": "financial-tax-erp:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "financial-tax-erp:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/test.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.spec.json",
+            "karmaConfig": "karma.conf.js",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.scss"
+            ],
+            "scripts": []
+          }
+>>>>>>> 59cfeb1c382a9d21439909311af8c5f520e7814a
+        }
+      }
+    }
+  },
+<<<<<<< HEAD
+  "defaultProject": "widget-element"
+=======
+  "cli": {
+    "analytics": "8d29a348-ddb9-483e-89c7-7ac1bf48ed44"
+  }
+>>>>>>> 59cfeb1c382a9d21439909311af8c5f520e7814a
+}

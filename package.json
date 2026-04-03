@@ -1,0 +1,76 @@
+{
+<<<<<<< HEAD
+  "name": "bot-ai-widget",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --port 4301 --project=widget-element",
+    "start:app": "ng serve --port 4301 --project=widget-element",
+    "start:element": "ng serve --port 4301 --project=widget-element",
+    "build:element": "ng build --configuration=production --project=widget-element --build-optimizer --named-chunks=true --output-hashing=none && node build.js",
+    "build:bundle": "node build.js"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/common": "^14.2.0",
+    "@angular/compiler": "^14.2.0",
+    "@angular/core": "^14.2.0",
+    "@angular/forms": "^14.3.0",
+    "@angular/platform-browser": "^14.2.0",
+    "@angular/platform-browser-dynamic": "^14.2.0",
+    "bootstrap": "^5.3.8",
+    "rxjs": "~7.5.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^14.2.13",
+    "@angular/cli": "~14.2.13",
+    "@angular/compiler-cli": "^14.2.0",
+    "@types/node": "^14.18.63",
+    "fs-extra": "^11.3.2",
+    "typescript": "~4.7.2"
+=======
+  "name": "financial-tax-erp",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "14.0.2",
+    "@angular/common": "14.0.2",
+    "@angular/compiler": "14.0.2",
+    "@angular/core": "14.0.2",
+    "@angular/forms": "14.0.2",
+    "@angular/platform-browser": "14.0.2",
+    "@angular/platform-browser-dynamic": "14.0.2",
+    "@angular/router": "14.0.2",
+    "chart.js": "^3.9.1",
+    "ng2-charts": "^3.1.2",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.3.0",
+    "zone.js": "0.11.6"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "14.0.2",
+    "@angular/cli": "~14.2.13",
+    "@angular/compiler-cli": "14.0.2",
+    "@types/jasmine": "~4.0.0",
+    "jasmine-core": "~4.3.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.0.0",
+    "typescript": "4.7.4"
+  },
+  "volta": {
+    "node": "18.20.8"
+>>>>>>> 59cfeb1c382a9d21439909311af8c5f520e7814a
+  }
+}
