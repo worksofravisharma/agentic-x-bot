@@ -21,16 +21,12 @@
     "lib": [
       "es2020",
       "dom"
-<<<<<<< HEAD
     ],
     "paths": {
       "widget-lib": [
         "dist/widget-lib"
       ]
     }
-=======
-    ]
->>>>>>> 59cfeb1c382a9d21439909311af8c5f520e7814a
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

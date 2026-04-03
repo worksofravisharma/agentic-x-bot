@@ -40,13 +40,3 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
-<<<<<<< HEAD
-=======
-
-# Local / secret config (never commit real API keys or URLs here)
-.env
-.env.*
-!.env.example
-.environment
-src/environments/environment.local.ts
->>>>>>> 59cfeb1c382a9d21439909311af8c5f520e7814a
